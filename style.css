@@ -34,8 +34,19 @@ main h4{
 .article-body{
     width: 70%;
 }
+.article-body span{
+    background: yellow;
+}
 table{
-    width: 70%;
+    width: 100%;
+    margin: 0;
+}
+tr{
+    margin: 0;
+}
+td{
+    margin: 0;
+    padding: 0;
 }
 th{
 width: 25%;
@@ -45,4 +56,15 @@ margin: 0;
 }
 tr:nth-child(odd){
     background: lightblue;
+}
+footer{
+    width: 70%;
+    margin: 2rem;
+}
+footer h2{
+    color: grey;
+}
+footer img{
+    display: block;
+    margin-top: 1rem;
 }
