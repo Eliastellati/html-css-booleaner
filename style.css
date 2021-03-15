@@ -1,8 +1,48 @@
 header {
     background-image: url("/img-2/pattern.png");
-    background-color: aquamarine;
-    background: rgb(165, 255, 255);
+    background: rgb(65, 136, 218);
     width: 100%;
-    height: 200px;
+    padding: 0.5em;
 }
-
+header h2{
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px grey;
+    margin-left: 2em;
+}
+header span{
+    font-size: 2rem;
+    margin-left: 20px;
+}
+main{
+    margin-left: 2rem;
+}
+h1{
+    width: 70%;
+}
+main h3{
+    color: lightgray;
+    margin-bottom: 0;
+}
+main a{
+    color:rgb(65, 136, 218);
+}
+main h4{
+    color: lightgray;
+    margin-top: 0;
+}
+.article-body{
+    width: 70%;
+}
+table{
+    width: 70%;
+}
+th{
+width: 25%;
+color: white;
+background:rgb(65, 136, 218);
+margin: 0;
+}
+tr:nth-child(odd){
+    background: lightblue;
+}
